@@ -18,4 +18,5 @@ Xây dựng website xem phim "TBD.com"
   + Quản lý các tài khoản
   + Xem lượng tương tác của người dùng
   + 
+* bán muối:
  
