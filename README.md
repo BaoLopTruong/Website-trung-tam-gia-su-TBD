@@ -5,9 +5,9 @@ Xây dựng website xem phim "TBD.com"
   không thể mở cửa trở lại để đón khách thì nhu cầu xem phim của khách hàng ngày một tăng lên. Nắm bắt được xu hướng của thế giới, nhóm chúng em quyết định thực hiện nghiên cứu website xem phim trực tuyến có thu phí "TBD.com"
 * Mô tả bài toán: Website xem phim trực tuyến "TBD.com" giúp viewer tìm kiếm được những bộ phim yêu thích từ những bộ phim mới nhất cho đến những bộ phim bom tấn nhất, đầy đủ các thể loại, đa quốc gia, v.v
 * Phân Công Công Việc:
-  - Lê Thị Phương Thảo: Font- end
-  - Lê Ngọc Bảo: Back- ent
-  - Cao Viết Đức: MySQL
+  - Lê Thị Phương Thảo: 
+  - Lê Ngọc Bảo: 
+  - Cao Viết Đức: 
   
 * Chức năng:
   - Đối với người dùng:
