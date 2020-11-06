@@ -13,8 +13,10 @@ Xây dựng website xem phim "TBD.com"
   - Đối với người dùng:
   + Tìm kiếm phim theo chủ đề ( thể loại, tên phim, diễn viên,...)
   + Nạp tiền vào tài khoản
+  + Đăng kí xem phim theo tháng
   - Đối với người quản lý:
   + Thêm phim vào kho dữ liệu
   + Quản lý các tài khoản
   + Xem tương tác của người dùng
+  
   
