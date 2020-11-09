@@ -10,13 +10,13 @@ Xây dựng website trung tâm gia sư TBD"
   - Cao Viết Đức: (Model) MySQL
   
 * Chức năng:
-  - Khách hàng:
+  a. Khách hàng:
   + Có thể đăng kí gia sư trên website.
   + Tìm kiếm gia sư phù hợp với nhu cầu của khách hàng.
   + Đăng kí lớp học.
   + Đăng kí làm gia sư.
   + Đăng kí tìm gia sư.
-  - Quản lý:
+  b. Quản lý:
   + Quản lý các gia sư.
   + Quản lý các lớp học.
   + Quản lý các học viên.
