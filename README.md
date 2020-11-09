@@ -1,22 +1,28 @@
-# Website-xem-phim-TDB.com
+# Website trung tâm gia sư TBD
 
-Xây dựng website xem phim "TBD.com"
-* Giới Thiệu đề tài: Hiện nay, xu hướng xem phim trực tuyến có trả phí đang là đề tài HOT. Trước tình hình dịch Covid đang hoành hành trên khắp thế giới, việc các rạp phim
-  không thể mở cửa trở lại để đón khách thì nhu cầu xem phim của khách hàng ngày một tăng lên. Nắm bắt được xu hướng của thế giới, nhóm chúng em quyết định thực hiện nghiên cứu website xem phim trực tuyến có thu phí "TBD.com"
-* Mô tả bài toán: Website xem phim trực tuyến "TBD.com" giúp viewer tìm kiếm được những bộ phim yêu thích từ những bộ phim mới nhất cho đến những bộ phim bom tấn nhất, đầy đủ các thể loại, đa quốc gia, v.v
+Xây dựng website trung tâm gia sư TBD"
+* Giới Thiệu đề tài: Hiện nay, xu hướng của công nghệ hóa. Trước tình hình dịch Covid đang hoành hành trên khắp thế giới, việc các rạp phim
+  không thể mở cửa trở lại để đón khách thì nhu cầu xem phim của khách hàng ngày một tăng lên. Nắm bắt được xu hướng của thế giới, nhóm chúng em quyết định thực hiện nghiên cứu website trung tâm gia sư TBD.
+* Mô tả bài toán: Website trung tâm gia sư TBD giúp người tìm kiếm được những gia sư phù hợp với từng người, ở mọi cấp độ, mọi lĩnh vực trên toàn quốc.
 * Phân Công Công Việc:
   - Lê Thị Phương Thảo:(View) Front End
   - Lê Ngọc Bảo: (Controller) Back End
   - Cao Viết Đức: (Model) MySQL
   
 * Chức năng:
-  - Đối với người dùng:
-  + Tìm kiếm phim theo chủ đề ( thể loại, tên phim, diễn viên,...)
-  + Nạp tiền vào tài khoản
-  + Đăng kí xem phim theo tháng
-  - Đối với người quản lý:
-  + Thêm phim vào kho dữ liệu
-  + Quản lý các tài khoản
-  + Xem tương tác của người dùng
-  
+  - Khách hàng:
+  + Có thể đăng kí gia sư trên website.
+  + Tìm kiếm gia sư phù hợp với nhu cầu của khách hàng.
+  + Đăng kí lớp học.
+  + Đăng kí làm gia sư.
+  + Đăng kí tìm gia sư.
+  - Quản lý:
+  + Quản lý các gia sư.
+  + Quản lý các lớp học.
+  + Quản lý các học viên.
+* Công nghệ sử dụng
+  - PHP
+  - MySQL
+  - HTML/CSS
+  - Bootstrap
   
