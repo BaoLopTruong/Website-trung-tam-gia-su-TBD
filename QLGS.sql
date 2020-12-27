@@ -34,6 +34,8 @@ create table PHUHUYNH(
     SDT char(10) not null,
     primary key (MAPH)
 );
+INSERT INTO PHUHUYNH VALUES ('PH01', 'NGUYỄN HOÀI AN', 'NAM', 'NHA TRANG', '0963357456');
+
 create table MONHOC(
 	MAMH int(10) not null,
     TENMH varchar(50) not null,
@@ -44,5 +46,10 @@ create table MONHOC(
     foreign key (MAHS) references HOCSINH(MAHS)
 );
 
-INSERT INTO MONHOC VALUE 
+INSERT INTO MONHOC VALUES ('T12', 'Toán', 'A03', 'T001');
+INSERT INTO MONHOC VALUES ('V11', 'Ngữ Văn', 'B01', 'T012');
+INSERT INTO MONHOC VALUES ('A10', 'Anh Văn', 'C15', 'T023');
+INSERT INTO MONHOC VALUES ('L12', 'Lý', 'A01', 'T005');
+INSERT INTO MONHOC VALUES ('H12', 'Hóa', 'A02', 'T011');
+
 
