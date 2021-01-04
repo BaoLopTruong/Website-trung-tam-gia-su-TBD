@@ -6,8 +6,8 @@ Xây dựng website trung tâm gia sư TBD"
 * Mô tả bài toán: Website trung tâm gia sư TBD giúp người tìm kiếm được những gia sư phù hợp với từng người, ở mọi cấp độ, mọi lĩnh vực trên toàn quốc.
 * Phân Công Công Việc:
   - Lê Thị Phương Thảo:(View) Front End
-  - Lê Ngọc Bảo: (Controller) Back End
-  - Cao Viết Đức: (Model) MySQL
+  - Lê Ngọc Bảo: (Model) MySQL
+  - Cao Viết Đức: (Controler) Back End
   
 * Chức năng:
   a. Khách hàng:
