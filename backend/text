@@ -1,0 +1,3 @@
+cd C:\xampp\mysql\bin
+mysql -u root –p
+source C:/xampp/htdocs/QLGS/QuanLyGiaSu.sql;
