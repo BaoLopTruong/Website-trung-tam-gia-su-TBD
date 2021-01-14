@@ -131,7 +131,7 @@
 	<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container-fluid">
-				<a class="navbar-brand" href="index.html">
+				<a class="navbar-brand" href="index.php">
 					<img src="images/logo.png" alt="" />
 				</a>
 				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
@@ -141,17 +141,17 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbars-host">
 					<ul class="navbar-nav ml-auto">
-						<li class="nav-item"><a class="nav-link" href="index.html">Trang chủ</a></li>
+						<li class="nav-item"><a class="nav-link" href="index.php">Trang chủ</a></li>
 						<li class="nav-item active dropdown">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Lớp học </a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="course-grid-2.html">Lớp học 1 </a>
-								<a class="dropdown-item" href="course-grid-3.html">Lớp học 2 </a>
-								<a class="dropdown-item" href="course-grid-4.html">Lớp học 3 </a>
+								<a class="dropdown-item" href="course-grid-2.php">Lớp học 1 </a>
+								<a class="dropdown-item" href="course-grid-3.php">Lớp học 2 </a>
+								<a class="dropdown-item" href="course-grid-4.php">Lớp học 3 </a>
 							</div>
 						</li>
-						<li class="nav-item"><a class="nav-link" href="teachers.html">Giáo viên</a></li>
-						<li class="nav-item"><a class="nav-link" href="contact.html">Đăng ký</a></li>
+						<li class="nav-item"><a class="nav-link" href="teachers.php">Giáo viên</a></li>
+						<li class="nav-item"><a class="nav-link" href="contact.php">Đăng ký</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
                         <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>Đăng nhập</span></a></li>
@@ -189,7 +189,7 @@
 								<h2><a href="#" title="">Đối với học sinh lớp 1</a></h2>
 							</div>
 							<div class="course-desc">
-								<p>Lorem ipsum door sit amet, fugiat deicata avise id cum, no quo maiorum intel ogrets geuiat operts elicata libere avisse id cumlegebat, liber regione eu sit.... </p>
+								<p>Lớp 1,các em mới đầu làm quen với cách học mới,với lớp 1 các con có chương trình học ngày một khác.Vì vậy các giáo viên sẽ cùng các con học tập thật tốt. </p>
 							</div>
 							<div class="course-rating">
 								4.5
@@ -219,7 +219,7 @@
 								<h2><a href="#" title="">Đối với học sinh lớp 2</a></h2>
 							</div>
 							<div class="blog-desc">
-								<p>Lorem ipsum door sit amet, fugiat deicata avise id cum, no quo maiorum intel ogrets geuiat operts elicata libere avisse id cumlegebat, liber regione eu sit.... </p>
+								<p>Để các em học tập tốt hơn,thầy cô giáo sẽ cho các em học kiến thức nâng cao để các em có cách tư duy tốt.. </p>
 							</div>
 							<div class="course-rating">
 								4.5
@@ -253,7 +253,7 @@
 								<h2><a href="#" title="">Đối với học sinh lớp 3</a></h2>
 							</div>
 							<div class="course-desc">
-								<p>Lorem ipsum door sit amet, fugiat deicata avise id cum, no quo maiorum intel ogrets geuiat operts elicata libere avisse id cumlegebat, liber regione eu sit.... </p>
+								<p>Toán lớp 3 khá khó,vì vậy các em phải thật chú tâm và kính mong quý phụ huynh về kiểm tra bài để các con có tinnh thần học tập tốt,hàng tháng thyaaf cô sẽ cho làm bài kiểm tra. </p>
 							</div>
 							<div class="course-rating">
 								4.5
@@ -282,7 +282,7 @@
 								<h2><a href="#" title="">Đối với học sinh lớp 4</a></h2>
 							</div>
 							<div class="course-desc">
-								<p>Lorem ipsum door sit amet, fugiat deicata avise id cum, no quo maiorum intel ogrets geuiat operts elicata libere avisse id cumlegebat, liber regione eu sit.... </p>
+								<p>Phụ huynh nào có con đang học lớp 4,hãy yên tâm gửi con mình đến SmartEDU. Chúng tôi giảng dạy các em sát với chương trình học ở trường đồng thời nâng cao kiến thức để các em học tập tốt hơn. </p>
 							</div>
 							<div class="course-rating">
 								4.5
@@ -315,7 +315,7 @@
 								<h2><a href="#" title="">Đối với học sinh lớp 5</a></h2>
 							</div>
 							<div class="course-desc">
-								<p>Lorem ipsum door sit amet, fugiat deicata avise id cum, no quo maiorum intel ogrets geuiat operts elicata libere avisse id cumlegebat, liber regione eu sit.... </p>
+								<p>Lớp 5 là cuối cùng cấp 1.Các em học nhiều và các em cần trang bị tốt môn tiếng anh.Đồng thơi các em phải ôn luyện kỹ để có kỳ thi chuyển cấp tốt. </p>
 							</div>
 							<div class="course-rating">
 								4.5
@@ -338,16 +338,18 @@
         </div><!-- end container -->
     </div><!-- end section -->
     <footer class="footer">
-        <div class="container">
+        <div class="container" style="background: #4c5a7d url(images/world-map.png) no-repeat center;">
             <div class="row">
-                <div class="col-lg-4 col-md-4 col-xs-12">
+            <div class="col-lg-1 col-md-1">
+                </div>
+                <div class="col-lg-5 col-md-4\5 col-xs-12">
                     <div class="widget clearfix">
                         <div class="widget-title">
-                            <h3>Trung tâm gia sư SmartEDU</h3>
+                            <h3 style="color: black;">Trung tâm gia sư SmartEDU</h3>
                         </div>
-                        <p> Để thấy được sự tiến bộ của con mình qua từng buổi học,hãy liên hệ với trung tâm để đực tư vấn</p>
-						<p> NƠI HỘI TỤ NHÂN TÀI</p> 
-                        <div class="footer-right">
+						<p style="color: black;"> Để thấy được sự tiến bộ của con mình qua từng buổi học,hãy liên hệ với trung tâm để đực tư vấn</p>
+						<p style="color: black;"> NƠI HỘI TỤ NHÂN TÀI</p>  
+						<div class="footer-right">
 							<ul class="footer-links-soi">
 								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
 								<li><a href="#"><i class="fa fa-github"></i></a></li>
@@ -355,28 +357,30 @@
 								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
 								<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
 							</ul><!-- end links -->
-						</div>
+						</div>						
                     </div><!-- end clearfix -->
-                </div><!-- end col -->
-                <div class="col-lg-4 col-md-4 col-xs-12">
+                </div>
+
+                <div class="col-lg-1 col-md-1">
+                </div>
+
+                <div class="col-lg-5 col-md-5 col-xs-12">
                     <div class="widget clearfix">
                         <div class="widget-title">
-                            <h3>Chi tiết liên hệ</h3>
+                            <h3 style="color: black;">Chi tiết liên hệ</h3>
                         </div>
 
                         <ul class="footer-links">
                             <li><a href="mailto:#">info@yoursite.com</a></li>
                             <li><a href="#">www.yoursite.com</a></li>
-                            <li>Trung tâm gia sư SmartEDU</li>
-                            <li>+61 3 8376 6284</li>
+                            <li style="color: black;">Trung tâm gia sư SmartEDU</li>
+                            <li style="color: black;">+61 3 8376 6284</li>
                         </ul><!-- end links -->
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
-				
             </div><!-- end row -->
         </div><!-- end container -->
     </footer><!-- end footer -->
-
     <div class="copyrights">
         <div class="container">
             <div class="footer-distributed">

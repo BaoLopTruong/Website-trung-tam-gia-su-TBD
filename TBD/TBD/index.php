@@ -1,46 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-
-    <!-- Basic -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
-   
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
- 
-     <!-- Site Metas -->
-    <title>SmartEDU - Education Responsive HTML5 Template</title>  
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Site CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- ALL VERSION CSS -->
-    <link rel="stylesheet" href="css/versions.css">
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
-
-    <!-- Modernizer for Portfolio -->
-    <script src="js/modernizer.js"></script>
-
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
+<?php 
+	include('./header.php');
+?>
 <body class="host_version"> 
-
+	
+<?php 
+	include('./head.php');
+?>
+	
 	<!-- Modal -->
+<!-- 
 	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
 		<div class="modal-content">
@@ -49,12 +17,12 @@
 				<h4 class="modal-title">Customer Login</h4>
 			</div>
 			<div class="modal-body customer-box">
-				<!-- Nav tabs -->
+
 				<ul class="nav nav-tabs">
 					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
 					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
 				</ul>
-				<!-- Tab panes -->
+
 				<div class="tab-content">
 					<div class="tab-pane active" id="Login">
 						<form role="form" class="form-horizontal">
@@ -116,6 +84,7 @@
 		</div>
 	  </div>
 	</div>
+ -->
 
     <!-- LOADER -->
 	<div id="preloader">
@@ -126,45 +95,6 @@
 		</div>
 	</div>
 	<!-- END LOADER -->	
-	
-	<!-- Start header -->
-	<header class="top-navbar">
-		<nav class="navbar navbar-expand-lg navbar-light bg-light">
-			<div class="container-fluid">
-				<a class="navbar-brand" href="index.html">
-					<img src="images/logo.png" alt="" />
-				</a>
-				<button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbars-host" aria-controls="navbars-rs-food" aria-expanded="false" aria-label="Toggle navigation">
-					<span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-				</button>
-				<div class="collapse navbar-collapse" id="navbars-host">
-					<ul class="navbar-nav ml-auto">
-						<li class="nav-item active"><a class="nav-link" href="index.html">Trang chủ</a></li>
-						<li class="nav-item dropdown">
-							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Lớp học </a>
-							<div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="course-grid-2.html">Lớp học 1 </a>
-								<a class="dropdown-item" href="course-grid-3.html">Lớp học 2 </a>
-								<a class="dropdown-item" href="course-grid-4.html">Lớp học 3 </a>
-							</div>
-						</li>
-                        <li class="nav-item"><a class="nav-link" href="teachers.html">Giáo viên</a>
-                            <div class="dropdown-menu" aria-labelledby="dropdown-a">
-								<a class="dropdown-item" href="blog.html">Đăng kí làm gia sư </a>
-								<a class="dropdown-item" href="blog-single.html">Lớp học mới </a>
-							</div>
-                        </li>
-						<li class="nav-item"><a class="nav-link" href="contact.html">Đăng ký</a></li>
-					</ul>
-					<ul class="nav navbar-nav navbar-right">
-                        <li><a class="hover-btn-new log orange" href="#" data-toggle="modal" data-target="#login"><span>Đăng nhập</span></a></li>
-                    </ul>
-				</div>
-			</div>
-		</nav>
-	</header>
 	<!-- End header -->
 	
 	<div id="carouselExampleControls" class="carousel slide bs-slider box-slider" data-ride="carousel" data-pause="hover" data-interval="false" >
@@ -176,40 +106,13 @@
 		</ol>
 		<div class="carousel-inner" role="listbox">
 			<div class="carousel-item active">
-				<div id="home" class="first-section" style="background-image:url('images/slider_01.jpg');">
-					<div class="dtab">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-12 col-sm-12 text-right">
-									<div class="big-tagline">
-										<h2><strong>SmartEDU </strong> TRUNG TÂM GIA SƯ</h2>
-										<p class="lead">ƯƠM MẦM TƯƠNG LAI - NƠI ĐÁNG TIN CẬY CỦA HỌC TRÒ VIỆT. </p>
-											<a href="#" class="hover-btn-new"><span>Liên hệ</span></a>
-											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											<a href="#" class="hover-btn-new"><span>Xem thêm</span></a>
-									</div>
-								</div>
-							</div><!-- end row -->            
-						</div><!-- end container -->
-					</div>
+				<div id="home" class="first-section" style="background-image:url('images/lophoc.jpg');">
+					
 				</div><!-- end section -->
 			</div>
 			<div class="carousel-item">
-				<div id="home" class="first-section" style="background-image:url('images/slider-02.jpg');">
+				<div id="home" class="first-section" style="background-image:url('images/lophoc2.jpg');">
 					<div class="dtab">
-						<div class="container">
-							<div class="row">
-								<div class="col-md-12 col-sm-12 text-left">
-									<div class="big-tagline">
-										<h2 data-animation="animated zoomInRight">SmartEDU <strong>TRUNG TÂM GIA SƯ</strong></h2>
-										<p class="lead" data-animation="animated fadeInLeft"> UY TÍN - CHẤT LƯƠNG - HIỆU QUẢ. </p>
-											<a href="#" class="hover-btn-new"><span>Liên hệ</span></a>
-											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											<a href="#" class="hover-btn-new"><span>Xem thêm</span></a>
-									</div>
-								</div>
-							</div><!-- end row -->            
-						</div><!-- end container -->
 					</div>
 				</div><!-- end section -->
 			</div>
@@ -222,9 +125,6 @@
 									<div class="big-tagline">
 										<h2 data-animation="animated zoomInRight"><strong>TRUNG TÂM GIA SƯ</strong> SmartEDU</h2>
 										<p class="lead" data-animation="animated fadeInLeft">CÙNG BẠN VƯƠN TỚI TÂM CAO</p>
-											<a href="#" class="hover-btn-new"><span>Liên hệ</span></a>
-											&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
-											<a href="#" class="hover-btn-new"><span>Xem thêm</span></a>
 									</div>
 								</div>
 							</div><!-- end row -->            
@@ -296,17 +196,6 @@
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->
-
-    <section class="section lb page-section">
-		<div class="container">
-			 <div class="section-title row text-center">
-                <div class="col-md-8 offset-md-2">
-                    <h3>Triết lý dạy học của chúng tôi</h3>
-                    <p class="lead">Trung tâm Gia sư SmartEDU tổ chức dạy học theo Triết lý “Dạy học phân hóa”. Đặc thù của “Dạy học phân hóa” là dạy sao cho vừa sức với đối tượng người học, hiểu đơn giản là: Người học ở mức độ khá, giỏi thì dạy sao cho hứng thú, đam mê với việc học; Đối với người học trung bình thì tạo động lực để vươn lên; Với người học yếu kém thì phải bù đắp được chỗ hổng về kiến thức để lĩnh hội được kiến thức cơ bản.</p>
-                </div>
-		</div>
-	</section>
-
 	<div class="section cl">
 		<div class="container">
 			<div class="row text-left stat-wrap">
@@ -417,99 +306,26 @@
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->
-
-    <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/parallax_04.jpg');">
+    <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/ngoaiKhoa.jfif');">
         <div class="container">
             <div class="section-title text-center">
 				<h3>TẤT CẢ VÌ HỌC SINH THÂN YÊU</h3>
 				<h3>SmartEDU thắp sáng các em bằng con đường"Giáo Dục".</h3>
             </div><!-- end title -->
-
-            <div class="row">
-                <div class="col-md-12 col-sm-12">
-                    <div class="testi-carousel owl-carousel owl-theme">
-                        <div class="testimonial clearfix">
-							<div class="testi-meta">
-                                <img src="images/testi_01.png" alt="" class="img-fluid">
-                                <h4>Trần Thị Thanh Hằng </h4>
-                            </div>
-                            <div class="desc">
-                                <h3><i class="fa fa-quote-left"></i> GIÁM ĐỐC TRUNG TÂM SmartEDU</h3>
-                                <p class="lead">"Đội ngũ nhà giáo xứng đáng là những “người thầy” Có tấm lòng yêu nghề, hiểu ý nghĩa của việc giáo dục học sinh, yêu học sinh bằng tấm lòng của người mẹ, người thầy. Người giáo viên cần có tính kiên trì, nhẫn nại và tận tình, tận tâm”..</p>
-                            </div>
-                            <!-- end testi-meta -->
-                        </div>
-                        <!-- end testimonial -->
-                    </div><!-- end carousel -->
-                </div><!-- end col -->
-            </div><!-- end row -->
         </div><!-- end container -->
-    </div><!-- end section -->
-
-    <footer class="footer">
-        <div class="container">
-            <div class="row">
-                <div class="col-lg-4 col-md-4 col-xs-12">
-                    <div class="widget clearfix">
-                        <div class="widget-title">
-                            <h3>SmartEDU</h3>
-                        </div>
-						<p> Để thấy được sự tiến bộ của con mình qua từng buổi học,hãy liên hệ với trung tâm để đực tư vấn</p>
-						<p> NƠI HỘI TỤ NHÂN TÀI</p>  
-						<div class="footer-right">
-							<ul class="footer-links-soi">
-								<li><a href="#"><i class="fa fa-facebook"></i></a></li>
-								<li><a href="#"><i class="fa fa-github"></i></a></li>
-								<li><a href="#"><i class="fa fa-twitter"></i></a></li>
-								<li><a href="#"><i class="fa fa-dribbble"></i></a></li>
-								<li><a href="#"><i class="fa fa-pinterest"></i></a></li>
-							</ul><!-- end links -->
-						</div>						
-                    </div><!-- end clearfix -->
-                </div><!-- end col -->
-                <div class="col-lg-4 col-md-4 col-xs-12">
-                    <div class="widget clearfix">
-                        <div class="widget-title">
-                            <h3>Chi tiết liên hệ</h3>
-                        </div>
-
-                        <ul class="footer-links">
-                            <li><a href="mailto:#">info@yoursite.com</a></li>
-                            <li><a href="#">www.yoursite.com</a></li>
-                            <li>Trung tâm gia sư SmartEDU</li>
-                            <li>+61 3 8376 6284</li>
-                        </ul><!-- end links -->
-                    </div><!-- end clearfix -->
-                </div><!-- end col -->
-				
-            </div><!-- end row -->
-        </div><!-- end container -->
-    </footer><!-- end footer -->
-
-    <div class="copyrights">
-        <div class="container">
-            <div class="footer-distributed">
-                <div class="footer-center">                   
-                    <p class="footer-company-name">Bảo,Thảo,Đức. &copy; DHCN4 <a href="#">SmartEDU</a></p>
+	</div><!-- end section -->
+	<div class="row">
+        <div class="col-md-12 col-sm-12">
+            <div class="testi-carousel owl-carousel owl-theme">
+                <div class="testimonial clearfix">
+                     <div class="desc">
+                            <p class="lead">"SmartEDU tổ chức dạy học theo triết lý “Dạy học phân hóa”. Nghĩa là dạy sao cho vừa sức học của học sinh. Học sinh ở mức độ khá, giỏi thì dạy sao cho hứng thú, đam mê với việc học; Đối với người học trung bình thì tạo động lực để vươn lên; Với học sinh yếu kém thì phải bù đắp được chỗ hổng về kiến thức để lĩnh hội được kiến thức cơ bản.”</p>
+                    </div>
                 </div>
-            </div>
-        </div><!-- end container -->
-    </div><!-- end copyrights -->
+            </div><!-- end carousel -->
+        </div><!-- end col -->
+    </div><!-- end row -->
 
-    <a href="#" id="scroll-to-top" class="dmtop global-radius"><i class="fa fa-angle-up"></i></a>
-
-    <!-- ALL JS FILES -->
-    <script src="js/all.js"></script>
-    <!-- ALL PLUGINS -->
-    <script src="js/custom.js"></script>
-	<script src="js/timeline.min.js"></script>
-	<script>
-		timeline(document.querySelectorAll('.timeline'), {
-			forceVerticalMode: 700,
-			mode: 'horizontal',
-			verticalStartPosition: 'left',
-			visibleItems: 4
-		});
-	</script>
-</body>
-</html>
+<?php 
+	include('./footer.php');
+?>

@@ -961,7 +961,7 @@ a img.aligncenter {
 }
 
 .section-title p {
-    color: #999;
+    color: 333333;
     font-weight: 400;
     font-size: 18px;
     line-height: 33px;
@@ -1447,7 +1447,7 @@ a img.aligncenter {
 .pricing-table strong {
     font-weight: 600;
     margin-right: 6px;
-    color: #1f1f1f;
+    color: #0a0101;
 }
 
 .pricing-table-header {
@@ -2484,7 +2484,7 @@ select.mobile-device {
 
 .footer {
     padding: 90px 0 80px !important;
-    color: #cccccc;
+    color: #21759b;
 	background:#4c5a7d url('images/world-map.png') no-repeat center; 
 }
 
@@ -2495,19 +2495,23 @@ select.mobile-device {
 }
 
 .footer .widget-title small {
-    color: #cccccc;
+    color: #21759b;
     display: block;
     padding: 0 58px;
     text-transform: uppercase;
 }
 
 .footer .widget-title h3 {
-    color: #fff;
+    color: #000000;
     font-weight: 700;
     font-size: 22px;
     padding: 0;
     margin: 0;
     line-height: 1 !important;
+}
+
+.footer .widget-title p {
+    color: #000000;
 }
 
 .footer-links {
