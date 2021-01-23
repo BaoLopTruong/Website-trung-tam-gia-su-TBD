@@ -21,8 +21,7 @@
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
     <!-- Site CSS -->
-	<link rel="stylesheet" href="style.css">
-	<!-- <link rel="stylesheet" href="../css/style.css"> -->
+    <link rel="stylesheet" href="style.css">
     <!-- ALL VERSION CSS -->
     <link rel="stylesheet" href="css/versions.css">
     <!-- Responsive CSS -->
@@ -151,8 +150,14 @@
 								<a class="dropdown-item" href="course-grid-4.php">Lớp học 3 </a>
 							</div>
 						</li>
+						<li class="nav-item active dropdown">
+							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Đánh giá </a>
+							<div class="dropdown-menu" aria-labelledby="dropdown-a">
+								<a class="dropdown-item" href="blog-single.php">Đánh giá của phụ huynh </a>
+							</div>
+						</li>	
+						
 						<li class="nav-item"><a class="nav-link" href="teachers.php">Giáo viên</a></li>
-						<li class="nav-item"><a class="nav-link" href="contact.php">Đăng ký</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
                         <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>Đăng nhập</span></a></li>
@@ -162,7 +167,6 @@
 		</nav>
 	</header>
 	<!-- End header -->
-	
 	<div class="all-title-box">
 		<div class="container text-center">
 			<h1>Lớp học 1 <span class="m_1">Dành cho học sinh tiêu học.</span></h1>
