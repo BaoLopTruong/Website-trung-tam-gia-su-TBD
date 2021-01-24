@@ -60,12 +60,12 @@
 						<form role="form" class="form-horizontal">
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" id="email1" placeholder="Name" type="text">
+									<input class="form-control" Maloai="Maloai" placeholder="Maloai" type="text">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
+									<input class="form-control" Tenloai="tenloai" placeholder="Tenloai" type="Tenloai">
 								</div>
 							</div>
 							<div class="row">
@@ -82,22 +82,22 @@
 						<form role="form" class="form-horizontal">
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" placeholder="Name" type="text">
+									<input class="form-control" placeholder="ID" type="text">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" id="email" placeholder="Email" type="email">
+									<input class="form-control" Taikhoan="taikhoan" placeholder="Taikhoan" type="Taikhoan">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" id="mobile" placeholder="Mobile" type="email">
+									<input class="form-control" Matkhau="Matkhau" placeholder="Matkhau" type="Matkhau">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" id="password" placeholder="Password" type="password">
+									<input class="form-control" Maloai="Maloai" placeholder="Maloai" type="Maloai">
 								</div>
 							</div>
 							<div class="row">							
@@ -160,7 +160,7 @@
 						<li class="nav-item"><a class="nav-link" href="teachers.php">Giáo viên</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
-                        <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>Đăng nhập</span></a></li>
+                        <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>Liên hệ</span></a></li>
                     </ul>
 				</div>
 			</div>
@@ -171,7 +171,7 @@
 		<div class="container text-center">
 			<h1>Lớp học 1 <span class="m_1">Dành cho học sinh tiêu học.</span></h1>
 		</div>
-	</div>
+	
 	
     <div id="overviews" class="section wb">
         <div class="container">

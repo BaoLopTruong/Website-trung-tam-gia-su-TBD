@@ -37,8 +37,7 @@
                         </li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
-					<li class="nav-item"><a class="nav-link" href="./dangnhap.php">Đăng nhập</a></li>
-                        <!-- <li><a class="hover-btn-new log orange" href="./dangki.php" data-toggle="modal" data-target="#login"><span>Đăng nhập</span></a></li> -->
+					<li class="nav-item"><a class="nav-link" href="./dangnhap.php">Liên hệ</a></li>
                     </ul>
 				</div>
 			</div>

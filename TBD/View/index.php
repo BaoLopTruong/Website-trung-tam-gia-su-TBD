@@ -85,7 +85,7 @@
 	  </div>
 	</div>
  -->
-
+ <body class="host_version"> 
     <!-- LOADER -->
 	<div id="preloader">
 		<div class="loader-container">
@@ -151,7 +151,7 @@
             <div class="section-title row text-center">
                 <div class="col-md-8 offset-md-2">
                     <h3>SmartEDU</h3>
-                    <p class="lead">Bằng nhiều năm kinh nghiệm trong công tác giảng dạy, chúng tôi hiểu rằng: DẠY KÈM là phương pháp tốt nhất để HỌC SINH YẾU dễ hiểu bài và HỌC SINH GIỎI nhanh nâng cao kiến thức. Với mong muốn đem đến cho các quý phụ huynh những gia sư chất lượng tốt nhất. Văn phòng Gia Sư SmartEDU hiện đã cộng tác với rất nhiều Giáo Viên và Sinh Viên ưu tú của các trường: ĐH sư Phạm, ĐH Bách Khoa, ĐH KHXH & NV, ĐH Tự Nhiên, ĐH Kinh Tế...trên địa bàn thành phố, nhằm tạo ra một đội ngũ gia sư có trình độ tốt nhất</p>
+                    <p class="lead">Bằng nhiều năm kinh nghiệm trong công tác giảng dạy, chúng tôi hiểu rằng: DẠY KÈM là phương pháp tốt nhất để HỌC SINH YẾU dễ hiểu bài và HỌC SINH GIỎI nhanh nâng cao kiến thức. Với mong muốn đem đến cho các quý phụ huynh những gia sư chất lượng tốt nhất. Trung tâm Gia Sư SmartEDU hiện đã cộng tác với rất nhiều Giáo Viên và Sinh Viên ưu tú của các trường: ĐH sư Phạm, ĐH Bách Khoa, ĐH KHXH & NV, ĐH Tự Nhiên, ĐH Kinh Tế...trên địa bàn thành phố, nhằm tạo ra một đội ngũ gia sư có trình độ tốt nhất.</p>
                 </div>
             </div><!-- end title -->
         
@@ -184,10 +184,10 @@
 				<div class="col-xl-6 col-lg-6 col-md-12 col-sm-12">
                     <div class="message-box">
                         <h2>Nhiệm vụ của người thầy-Gia sư-Chúng tôi</h2>
-                        <p> Thường xuyên cũng cố bài học ở trường, dạy theo sổ báo bài ở lớp.
-                            - Thiết lập giáo án phù hợp với năng lực của từng học trò.
-                            - Luôn mở rộng, nâng cao kiến thức cho học sinh khá giỏi.</p>
-                        <p> *Ngoài việc truyền đạt kiến thức, chúng tôi mong muốn sẽ cùng với Quý vị Phụ Huynh góp phần hình thành nhân cách, giáo dục đạo đức cho các em để Quý vị Phụ Huynh yên tâm trong công việc gia đình và xã hội.</p>
+                        <p>- Thường xuyên cũng cố bài học ở trường, dạy theo sổ báo bài ở lớp.</p>
+						<p>- Thiết lập giáo án phù hợp với năng lực của từng học trò.</p>
+						<p>- Luôn mở rộng, nâng cao kiến thức cho học sinh khá giỏi.</p>
+                        <p> *Ngoài việc truyền đạt kiến thức, chúng tôi mong muốn sẽ cùng với quý vị phụ huynh góp phần hình thành nhân cách, giáo dục đạo đức cho các em để quý vị phụ huynh yên tâm trong công việc gia đình và xã hội.</p>
 
                         <a href="#" class="hover-btn-new orange"><span>Tìm hiểu thêm</span></a>
                     </div><!-- end messagebox -->
@@ -306,25 +306,6 @@
             </div><!-- end row -->
         </div><!-- end container -->
     </div><!-- end section -->
-    <div id="testimonials" class="parallax section db parallax-off" style="background-image:url('images/ngoaiKhoa.jfif');">
-        <div class="container">
-            <div class="section-title text-center">
-				<h3>TẤT CẢ VÌ HỌC SINH THÂN YÊU</h3>
-				<h3>SmartEDU thắp sáng các em bằng con đường"Giáo Dục".</h3>
-            </div><!-- end title -->
-        </div><!-- end container -->
-	</div><!-- end section -->
-	<div class="row">
-        <div class="col-md-12 col-sm-12">
-            <div class="testi-carousel owl-carousel owl-theme">
-                <div class="testimonial clearfix">
-                     <div class="desc">
-                            <p class="lead">"SmartEDU tổ chức dạy học theo triết lý “Dạy học phân hóa”. Nghĩa là dạy sao cho vừa sức học của học sinh. Học sinh ở mức độ khá, giỏi thì dạy sao cho hứng thú, đam mê với việc học; Đối với người học trung bình thì tạo động lực để vươn lên; Với học sinh yếu kém thì phải bù đắp được chỗ hổng về kiến thức để lĩnh hội được kiến thức cơ bản.”</p>
-                    </div>
-                </div>
-            </div><!-- end carousel -->
-        </div><!-- end col -->
-    </div><!-- end row -->
 
 <?php 
 	include('./footer.php');
