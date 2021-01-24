@@ -1,45 +1,7 @@
-<!DOCTYPE html>
-<html lang="en">
-
-    <!-- Basic -->
-    <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">   
-   
-    <!-- Mobile Metas -->
-    <meta name="viewport" content="width=device-width, initial-scale=1">
- 
-     <!-- Site Metas -->
-    <title>SmartEDU - Education Responsive HTML5 Template</title>  
-    <meta name="keywords" content="">
-    <meta name="description" content="">
-    <meta name="author" content="">
-
-    <!-- Site Icons -->
-    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon" />
-    <link rel="apple-touch-icon" href="images/apple-touch-icon.png">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="css/bootstrap.min.css">
-    <!-- Site CSS -->
-    <link rel="stylesheet" href="style.css">
-    <!-- ALL VERSION CSS -->
-    <link rel="stylesheet" href="css/versions.css">
-    <!-- Responsive CSS -->
-    <link rel="stylesheet" href="css/responsive.css">
-    <!-- Custom CSS -->
-    <link rel="stylesheet" href="css/custom.css">
-
-    <!-- Modernizer for Portfolio -->
-    <script src="js/modernizer.js"></script>
-
-    <!--[if lt IE 9]>
-      <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
-      <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
-    <![endif]-->
-
-</head>
+<?php 
+	include('./header.php');
+?>
 <body class="host_version"> 
-
 	<!-- Modal -->
 	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
 	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
@@ -65,7 +27,7 @@
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" Tenloai="tenloai" placeholder="Tenloai" type="Tenloai">
+									<input class="form-control" Tenloai="Tenloai" placeholder="Tenloai" type="Tenloai">
 								</div>
 							</div>
 							<div class="row">
@@ -87,7 +49,7 @@
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" Taikhoan="taikhoan" placeholder="Taikhoan" type="Taikhoan">
+									<input class="form-control" Taikhoan="Taikhoan" placeholder="Taikhoan" type="Taikhoan">
 								</div>
 							</div>
 							<div class="form-group">
@@ -116,7 +78,6 @@
 		</div>
 	  </div>
 	</div>
-
     <!-- LOADER -->
 	<div id="preloader">
 		<div class="loader-container">
@@ -127,7 +88,7 @@
 	</div>
 	<!-- END LOADER -->	
 
-    <!-- Start header -->
+	<!-- Start header -->
 	<header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container-fluid">
@@ -142,7 +103,11 @@
 				<div class="collapse navbar-collapse" id="navbars-host">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item"><a class="nav-link" href="index.php">Trang chủ</a></li>
-						<li class="nav-item active dropdown">
+						<li class="nav-item"><a class="nav-link" href="gioi_thieu.php">Giới thiệu</a>
+                            <div class="dropdown-menu" aria-labelledby="dropdown-a">
+							</div>
+                        </li>
+						<li class="nav-item ">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Lớp học </a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
 								<a class="dropdown-item" href="course-grid-2.php">Lớp học 1 </a>
@@ -150,7 +115,7 @@
 								<a class="dropdown-item" href="course-grid-4.php">Lớp học 3 </a>
 							</div>
 						</li>
-						<li class="nav-item active dropdown">
+						<li class="nav-item">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Đánh giá </a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
 								<a class="dropdown-item" href="blog-single.php">Đánh giá của phụ huynh </a>
@@ -165,7 +130,7 @@
 				</div>
 			</div>
 		</nav>
-	</header>
+	</header>	
 	<!-- End header -->
 	<div class="all-title-box">
 		<div class="container text-center">
