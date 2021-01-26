@@ -28,7 +28,7 @@ Xây dựng website trung tâm gia sư TBD"
   - MySQL
   - HTML/CSS/Bootstrap
 
-  * Hướng dẫn cài đặt:
+* Hướng dẫn cài đặt:
   - Download và cài đặt IDE git  tại đường dẫn sau: https://git-scm.com/download/win
   - Vào thư mục htdocs trong thư mục xampp và click chuột phải chọn Git Bash Here:
   ![cap1](https://user-images.githubusercontent.com/71202592/105789191-8ed4e100-5fb4-11eb-9f53-defba67ccd72.png)
