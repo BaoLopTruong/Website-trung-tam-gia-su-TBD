@@ -55,6 +55,12 @@ Xây dựng website trung tâm gia sư TBD"
    
    ![cap6](https://user-images.githubusercontent.com/71202592/105793845-71a41080-5fbc-11eb-9d44-107eb3b8fd9d.png)
    
-   
+  - Sau khi tạo được database quanlygiasu, thực hiện các bước sau:
+    + Bước 1: click vào quanlygiasu.
+    + Bước 2: click chọn Import.
+    + Bước 3: click chọn choose file. Tìm file quanlygiasu.sql được lưu trong folder xampp\htdocs\Website-trung-tam-gia-su-TBD\TBD
+    + Bước 4: click Go để import cơ sở dữ liệu.
+    
+   ![cap7](https://user-images.githubusercontent.com/71202592/105794654-fe030300-5fbd-11eb-8325-8da28e1f9087.png)
   
   
