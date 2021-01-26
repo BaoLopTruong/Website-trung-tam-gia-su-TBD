@@ -13,14 +13,14 @@
   <div class="row">
     <div class="col-sm-3"></div>
     <div class="col-sm-6">
-    <form action="#" method="post">
+    <form action="../Controler/loginController.php" method="GET">
 
     <div class="form-group">
     <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required>
+    <input type="text" placeholder="Enter Username" name="name" required>
 
     <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required>
+    <input type="password" placeholder="Enter Password" name="pass" required>
         
     <button type="submit">Login</button>
     <label>
@@ -30,7 +30,8 @@
 
   <div class="form-group" style="background-color:#f1f1f1">
     <button type="button" class="cancelbtn">Cancel</button>
-    <span class="psw">Forgot <a href="#">password?</a></span>
+    <span> <a href="../View/dangki.php">Dang Ki</a></span>
+    <span class="psw">Forgot <a href="#">password?</a></span>    
   </div>
 
     </form>

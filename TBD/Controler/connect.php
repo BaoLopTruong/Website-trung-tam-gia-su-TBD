@@ -16,5 +16,5 @@
     $ketnoi['username'] = 'root'; // Tên user mặc định là root 
     $ketnoi['password'] = ''; // Password để trống 
     $conn = @mysqli_connect( "{$ketnoi['host']}", "{$ketnoi['username']}", "{$ketnoi['password']}") or die("Không thể kết nối database");
-    $db= @mysqli_select_db( $conn,"{$ketnoi['dbname']}") or die("Không thể chọn database"); 
+    @mysqli_select_db( $conn,"{$ketnoi['dbname']}") or die("Không thể chọn database"); 
 ?>

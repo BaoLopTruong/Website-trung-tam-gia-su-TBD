@@ -1,34 +1,29 @@
 <?php
-        header('Content-Type: text/html; charset=UTF-8');
-        if(isset($_POST['register']))
-        {
-            include('Connect.php');
-            $ID = addslashes($_POST['ID']);
-            $username = addslashes($_POST['username']);
-            $password = addslashes($_POST['password']);
-            $repassword = addslashes($_POST['repassword']);
-            $maloai = addslashes($_POST['maloai']);
+    include ('./connect.php');
+    include ('./session.php');
+//    include ('../Module/account.php');
 
-            if(!$ID || !$username || !$password || !$repassword || !$maloai ){
-               echo "Vui lòng điền đầy đủ thông tin!";
-               exit;
-            }
-            $query = mysqli_query($conn,"SELECT username FROM account WHERE username = '".$username."'");
-            if(mysqli_num_rows($query)!=0){
-                echo "Tên đăng nhập đã tồn tại!";
-                exit;
-            }
-            if($password != $repassword){
-                echo "Xác nhận mật khẩu không đúng";
-                exit;
-            }
-            //$password= md5($password);
-            include('Model/account.php');
-            $account = new account($username,$repassword,$maloai);
-            $query = "INSERT INTO account  VALUES('$ID', '$username', '$password', '$maloai')";
-            echo $query;
-            mysqli_query($conn,$query);
+    
+    $u = $_GET['name'];
+    $p= $_GET['pass'];
+    $rp = $_GET['repass'];
+    $ml = $_GET['maloai'];
 
-            //header("location: login.php");
-        }
+    // echo $u ;
+    // echo $p;
+    // echo $rp;
+    // echo $ml; 
+    $query = "INSERT INTO account  VALUES ('','$u', '$p', '$ml')";
+    mysqli_query($conn,$query);
+    $query1 = "SELECT * FROM account WHERE username = '$u' and password ='$p' and maloai = '$ml'";
+    $data = mysqli_query($conn,$query1);
+
+    if(mysqli_num_rows($data) > 0 )
+    {
+        header('Location: ../View/dangnhap.php');
+    } else {
+       header('Location: ../View/dangki.php');
+    }
+
+    
 ?>

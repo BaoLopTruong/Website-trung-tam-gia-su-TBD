@@ -16,20 +16,20 @@
   <div class="row">
     <div class="col-sm-3"></div>
     <div class="col-sm-6">
-    <form action="#" method="post">
+    <form action="../Controler/registerController.php" method="GET">
 
     <div class="form-group">
-    <label for="uname"><b>ID</b></label>
-    <input type="text" placeholder="" name="ID" required>
-
     <label for="uname"><b>Tài khoản</b></label>
-    <input type="text" placeholder="" name="Taikhoan" required>
+    <input type="text" placeholder="" name="name" required>
 
     <label for="uname"><b>Mật khẩu</b></label>
-    <input type="text" placeholder="" name="Matkhau" required>
+    <input type="text" placeholder="" name="pass" required>
+
+    <label for="uname"><b>Nhập Lai Mật khẩu</b></label>
+    <input type="text" placeholder="" name="repass" required>
 
     <label for="uname"><b>Mã loại</b></label>
-    <input type="text" placeholder="" name="Maloai" required>
+    <input type="text" placeholder="" name="maloai" required>
         
     <button type="submit">Login</button>
     <label>
