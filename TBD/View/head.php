@@ -1,4 +1,15 @@
   <!-- Start header -->
+  <?php
+  include ('../Controler/session.php');
+
+ if(isset($_SESSION['username'])) {
+	 $ten = $_SESSION['username'];
+ }else {
+	 header('Location: dangnhap.php');
+ }
+
+ 
+ ?>
   <header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container-fluid">
@@ -13,6 +24,7 @@
 				<div class="collapse navbar-collapse" id="navbars-host">
 					<ul class="navbar-nav ml-auto">
 						<li class="nav-item"><a class="nav-link" href="index.php">Trang chủ</a></li>
+						<li class="nav-item"><a class="nav-link" href=""><?php echo $ten; ?></a></li>
 						<li class="nav-item"><a class="nav-link" href="gioi_thieu.php">Giới thiệu</a>
                             <div class="dropdown-menu" aria-labelledby="dropdown-a">
 							</div>

@@ -3,7 +3,7 @@
 -- https://www.phpmyadmin.net/
 --
 -- Host: 127.0.0.1
--- Generation Time: Jan 23, 2021 at 06:42 PM
+-- Generation Time: Jan 26, 2021 at 10:23 AM
 -- Server version: 10.4.14-MariaDB
 -- PHP Version: 7.4.10
 
@@ -29,8 +29,8 @@ SET time_zone = "+00:00";
 
 CREATE TABLE `account` (
   `ID` int(11) NOT NULL,
-  `username` char(30) DEFAULT NULL,
-  `password` char(30) DEFAULT NULL,
+  `username` char(30) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `password` char(30) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
   `maloai` int(11) DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
@@ -89,14 +89,14 @@ INSERT INTO `datakh` (`ID_KH`, `ID`, `ID_LH`, `ID_MH`) VALUES
 
 CREATE TABLE `info_giasu` (
   `ID` int(11) NOT NULL,
-  `CMND` char(9) DEFAULT NULL,
-  `hoten` varchar(30) DEFAULT NULL,
+  `CMND` char(9) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `hoten` varchar(30) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
   `ngaysinh` date DEFAULT NULL,
-  `sdt` char(11) DEFAULT NULL,
-  `email` char(30) DEFAULT NULL,
-  `quequan` varchar(30) DEFAULT NULL,
-  `trinhdo` varchar(30) DEFAULT NULL,
-  `mota` text DEFAULT NULL
+  `sdt` char(11) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `email` char(30) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `quequan` varchar(30) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `trinhdo` varchar(30) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `mota` text CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -121,23 +121,24 @@ INSERT INTO `info_giasu` (`ID`, `CMND`, `hoten`, `ngaysinh`, `sdt`, `email`, `qu
 
 CREATE TABLE `info_phhs` (
   `ID` int(11) NOT NULL,
-  `CMND` char(9) DEFAULT NULL,
-  `hoten` varchar(30) DEFAULT NULL,
+  `CMND` char(9) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `hotenph` varchar(30) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
   `ngaysinh` date DEFAULT NULL,
-  `sdt` char(11) DEFAULT NULL,
-  `email` char(30) DEFAULT NULL,
-  `quequan` varchar(30) DEFAULT NULL
+  `sdt` char(11) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `email` char(30) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `quequan` varchar(30) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
+  `hotenhs` varchar(30) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
 -- Dumping data for table `info_phhs`
 --
 
-INSERT INTO `info_phhs` (`ID`, `CMND`, `hoten`, `ngaysinh`, `sdt`, `email`, `quequan`) VALUES
-(12, '225714586', 'Nguyễn Văn Win', '1989-06-03', '0981299279', 'nguyenvanwin@gmail.com', 'Khánh Hòa'),
-(13, '225813657', 'Huỳnh Thị Ngọc', '1990-09-09', '0961255779', 'huynhthingoc@gmail.com', 'Khánh Hòa'),
-(14, '225814587', 'Nguyễn Thanh Phát', '1988-07-09', '0986631515', 'nguyenthanhphat', 'Khánh Hòa'),
-(15, '225784623', 'Nguyễn Tiến Dũng', '1980-02-05', '0971855858', 'nguyentiendung@gmail.com', 'Khánh Hòa');
+INSERT INTO `info_phhs` (`ID`, `CMND`, `hotenph`, `ngaysinh`, `sdt`, `email`, `quequan`, `hotenhs`) VALUES
+(12, '225714586', 'Nguyễn Văn Win', '1989-06-03', '0981299279', 'nguyenvanwin@gmail.com', 'Khánh Hòa', 'Nguyễn Minh Thông'),
+(13, '225813657', 'Huỳnh Thị Ngọc', '1990-09-09', '0961255779', 'huynhthingoc@gmail.com', 'Khánh Hòa', 'Nguyễn Hà My'),
+(14, '225814587', 'Nguyễn Thanh Phát', '1988-07-09', '0986631515', 'nguyenthanhphat', 'Khánh Hòa', 'Nông Thị Thơm'),
+(15, '225784623', 'Nguyễn Tiến Dũng', '1980-02-05', '0971855858', 'nguyentiendung@gmail.com', 'Khánh Hòa', 'Hà Khánh Vân');
 
 -- --------------------------------------------------------
 
@@ -148,7 +149,7 @@ INSERT INTO `info_phhs` (`ID`, `CMND`, `hoten`, `ngaysinh`, `sdt`, `email`, `que
 CREATE TABLE `khoahoc` (
   `ID_KH` int(11) NOT NULL,
   `ID` int(11) NOT NULL,
-  `ten_kh` varchar(20) DEFAULT NULL,
+  `ten_kh` varchar(20) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL,
   `time_bd` date DEFAULT NULL,
   `time_kt` date DEFAULT NULL,
   `hocphi` int(11) DEFAULT NULL
@@ -172,8 +173,8 @@ INSERT INTO `khoahoc` (`ID_KH`, `ID`, `ten_kh`, `time_bd`, `time_kt`, `hocphi`) 
 
 CREATE TABLE `lichhoc` (
   `ID_KH` int(11) NOT NULL,
-  `buoihoc` varchar(30) NOT NULL,
-  `ngayhoc` text NOT NULL
+  `buoihoc` varchar(30) CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL,
+  `ngayhoc` text CHARACTER SET utf8 COLLATE utf8_unicode_ci NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -194,7 +195,7 @@ INSERT INTO `lichhoc` (`ID_KH`, `buoihoc`, `ngayhoc`) VALUES
 
 CREATE TABLE `lophoc` (
   `ID_LH` int(11) NOT NULL,
-  `ten_lh` varchar(30) DEFAULT NULL
+  `ten_lh` varchar(30) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -215,7 +216,7 @@ INSERT INTO `lophoc` (`ID_LH`, `ten_lh`) VALUES
 
 CREATE TABLE `monhoc` (
   `ID_MH` int(11) NOT NULL,
-  `ten_mh` varchar(30) DEFAULT NULL
+  `ten_mh` varchar(30) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --
@@ -242,7 +243,7 @@ INSERT INTO `monhoc` (`ID_MH`, `ten_mh`) VALUES
 
 CREATE TABLE `type` (
   `maloai` int(11) NOT NULL,
-  `tenloai` varchar(20) DEFAULT NULL
+  `tenloai` varchar(20) CHARACTER SET utf8 COLLATE utf8_unicode_ci DEFAULT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 --

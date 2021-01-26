@@ -14,10 +14,9 @@
             $this->password = $password;
             $this->maloai = $maloai;
        
-          
-    
         }
 
+        
         public function getID(){
             return $this->ID;
         }
@@ -30,10 +29,6 @@
         public function getmaloai(){
             return $this->maloai;
         }
-
-
-        
-
 
 
         public function getJson(){
