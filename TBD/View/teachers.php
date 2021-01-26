@@ -23,12 +23,12 @@
 						<form role="form" class="form-horizontal">
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" Maloai="Maloai" placeholder="Maloai" type="text">
+									<input class="form-control" Tên đăng nhập="Tên đăng nhập" placeholder="Tên đăng nhập" type="text">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" Tenloai="Tenloai" placeholder="Tenloai" type="tenloai">
+									<input class="form-control" Mật khẩu="Mật khẩu" placeholder="Mật khẩu" type="Mật khẩu">
 								</div>
 							</div>
 							
@@ -46,22 +46,22 @@
 						<form role="form" class="form-horizontal">
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" placeholder="ID" type="text">
+									<input class="form-control" placeholder="Tên đăng ký" type="text">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" Taikhoan="Taikhoan" placeholder="Taikhoan" type="Taikhoan">
+									<input class="form-control" Mat khau="Mật khẩu" placeholder="Mật khẩu" type="Mật khẩu">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" Taikhoan="Taikhoan" placeholder="Taikhoan" type="Taikhoan">
+									<input class="form-control" Nhập lại mật khẩu="Nhập lại mật khẩu" placeholder="Nhập lại mật khẩu" type="Nhập lại mật khẩu">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" Maloai="Maloai" placeholder="Maloai" type="Maloai">
+									<input class="form-control" Maloai="Mã loại" placeholder="Mã loại" type="Mã loại">
 								</div>
 							</div>
 							<div class="row">							
@@ -110,7 +110,7 @@
                             <div class="dropdown-menu" aria-labelledby="dropdown-a">
 							</div>
                         </li>
-						<li class="nav-item dropdown">
+						<li class="nav-item ">
 							<a class="nav-link dropdown-toggle" href="#" id="dropdown-a" data-toggle="dropdown">Lớp học </a>
 							<div class="dropdown-menu" aria-labelledby="dropdown-a">
 								<a class="dropdown-item" href="course-grid-2.php">Lớp học 1  </a>
@@ -124,10 +124,11 @@
 								<a class="dropdown-item" href="blog-single.php">Đánh giá của phụ huynh </a>
 							</div>
 						</li>
-						<li class="nav-item active"><a class="nav-link" href="teachers.php">Giáo viên</a></li>
+						<li class="nav-item"><a class="nav-link" href="teachers.php">Giáo viên</a></li>
+						<li class="nav-item"><a class="nav-link" href="Lienhe.php">Liên hệ</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
-                        <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>Liên hệ</span></a></li>
+                        <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>Đăng ký</span></a></li>
                     </ul>
 				</div>
 			</div>

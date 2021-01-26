@@ -6,84 +6,6 @@
 <?php 
 	include('./head.php');
 ?>
-	
-	<!-- Modal -->
-<!-- 
-	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-		<div class="modal-content">
-			<div class="modal-header tit-up">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title">Customer Login</h4>
-			</div>
-			<div class="modal-body customer-box">
-
-				<ul class="nav nav-tabs">
-					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
-					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
-				</ul>
-
-				<div class="tab-content">
-					<div class="tab-pane active" id="Login">
-						<form role="form" class="form-horizontal">
-							<div class="form-group">
-								<div class="col-sm-12">
-									<input class="form-control" id="email1" placeholder="Name" type="text">
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-12">
-									<input class="form-control" id="exampleInputPassword1" placeholder="Email" type="email">
-								</div>
-							</div>
-							<div class="row">
-								<div class="col-sm-10">
-									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
-										Submit
-									</button>
-									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
-								</div>
-							</div>
-						</form>
-					</div>
-					<div class="tab-pane" id="Registration">
-						<form role="form" class="form-horizontal">
-							<div class="form-group">
-								<div class="col-sm-12">
-									<input class="form-control" placeholder="Name" type="text">
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-12">
-									<input class="form-control" id="email" placeholder="Email" type="email">
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-12">
-									<input class="form-control" id="mobile" placeholder="Mobile" type="email">
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-12">
-									<input class="form-control" id="password" placeholder="Password" type="password">
-								</div>
-							</div>
-							<div class="row">							
-								<div class="col-sm-10">
-									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
-										Save &amp; Continue
-									</button>
-									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
-										Cancel</button>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	  </div>
-	</div>
  --><body class="host_version"> 
 
 	<!-- Modal -->
@@ -106,14 +28,15 @@
 						<form role="form" class="form-horizontal">
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" Maloai="Maloai" placeholder="Maloai" type="text">
+								<input class="form-control" Tên đăng nhập="Tên đăng nhập" placeholder="Tên đăng nhập" type="text">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" Tenloai="Tenloai" placeholder="Tenloai" type="Tenloai">
+									<input class="form-control" Mật khẩu="Mật khẩu" placeholder="Mật khẩu" type="Mật khẩu">
 								</div>
 							</div>
+							
 							<div class="row">
 								<div class="col-sm-10">
 									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
@@ -128,22 +51,22 @@
 						<form role="form" class="form-horizontal">
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" placeholder="ID" type="text">
+									<input class="form-control" placeholder="Tên đăng ký" type="text">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" Taikhoan="Taikhoan" placeholder="Taikhoan" type="Taikhoan">
+									<input class="form-control" Mat khau="Mật khẩu" placeholder="Mật khẩu" type="Mật khẩu">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" Matkhau="Matkhau" placeholder="Matkhau" type="Matkhau">
+									<input class="form-control" Nhập lại mật khẩu="Nhập lại mật khẩu" placeholder="Nhập lại mật khẩu" type="Nhập lại mật khẩu">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" Maloai="Maloai" placeholder="Maloai" type="Maloai">
+									<input class="form-control" Maloai="Mã loại" placeholder="Mã loại" type="Mã loại">
 								</div>
 							</div>
 							<div class="row">							
@@ -329,7 +252,7 @@
                                         <div class="pricing-table-features">
                                             <p><i class="fa fa-bars"></i> <strong>Môn học-Lớp</strong> Toán-lớp 2</p>
                                             <p><i class="fa fa-rocket"></i> <strong>Thời gian</strong> Tối T2,T5,T7</p>
-                                            <p><i class="fa fa-database"></i> <strong>Địa chỉ</strong> 80 Lê Văn Huân</p>
+                                            <p><i class="fa fa-database"></i> <strong>Địa chỉ</strong> 123,Đường Củ Chi</p>
                                             <p><i class="fa fa-link"></i> <strong>Học phí</strong> 1.500.000</p>
                                             <p><i class="fa fa-life-ring"></i> <strong>Yêu cầu</strong> Giáo viên</p>
                                         </div>
@@ -347,7 +270,7 @@
                                         <div class="pricing-table-features">
                                             <p><i class="fa fa-bars"></i> <strong>Môn học-Lớp</strong> Văn-lớp 8</p>
                                             <p><i class="fa fa-rocket"></i> <strong>Thời gian</strong> Chiều T3,T6</p>
-                                            <p><i class="fa fa-database"></i> <strong>Địa Chỉ</strong> 80 Lê Văn Huân</p>
+                                            <p><i class="fa fa-database"></i> <strong>Địa Chỉ</strong> 123,Đường Củ Chi</p>
                                             <p><i class="fa fa-link"></i> <strong>Học phí</strong> 1.300.000</p>
                                             <p><i class="fa fa-life-ring"></i> <strong>Yêu cầu</strong> Sinh viên</p>
                                         </div>
@@ -366,7 +289,7 @@
                                         <div class="pricing-table-features">
                                             <p><i class="fa fa-bars"></i> <strong>Môn học-Lớp</strong> Anh-Lớp 12</p>
                                             <p><i class="fa fa-rocket"></i> <strong>Thời gian</strong> Tối T5,T7,CN</p>
-                                            <p><i class="fa fa-database"></i> <strong>Địa chỉ</strong> 80 Lê Văn Huân</p>
+                                            <p><i class="fa fa-database"></i> <strong>Địa chỉ</strong> 123,Đường Củ Chi</p>
                                             <p><i class="fa fa-link"></i> <strong>Học phí</strong> 1.800.000</p>
                                             <p><i class="fa fa-life-ring"></i> <strong>Yêu cầu</strong> Giáo viên</p>
                                         </div>

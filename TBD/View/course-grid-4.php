@@ -22,14 +22,15 @@
 						<form role="form" class="form-horizontal">
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" Maloai="Maloai" placeholder="Maloai" type="text">
+								<input class="form-control" Tên đăng nhập="Tên đăng nhập" placeholder="Tên đăng nhập" type="text">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" Tenloai="Tenloai" placeholder="Tenloai" type="Tenloai">
+									<input class="form-control" Mật khẩu="Mật khẩu" placeholder="Mật khẩu" type="Mật khẩu">
 								</div>
 							</div>
+							
 							<div class="row">
 								<div class="col-sm-10">
 									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
@@ -44,22 +45,22 @@
 						<form role="form" class="form-horizontal">
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" placeholder="ID" type="text">
+									<input class="form-control" placeholder="Tên đăng ký" type="text">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" Taikhoan="Taikhoan" placeholder="Taikhoan" type="Taikhoan">
+									<input class="form-control" Mat khau="Mật khẩu" placeholder="Mật khẩu" type="Mật khẩu">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" Matkhau="Matkhau" placeholder="Matkhau" type="Matkhau">
+									<input class="form-control" Nhập lại mật khẩu="Nhập lại mật khẩu" placeholder="Nhập lại mật khẩu" type="Nhập lại mật khẩu">
 								</div>
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" Maloai="Maloai" placeholder="Maloai" type="Maloai">
+									<input class="form-control" Maloai="Mã loại" placeholder="Mã loại" type="Mã loại">
 								</div>
 							</div>
 							<div class="row">							
@@ -122,9 +123,10 @@
 						</li>	
 						
 						<li class="nav-item"><a class="nav-link" href="teachers.php">Giáo viên</a></li>
+						<li class="nav-item"><a class="nav-link" href="Lienhe.php">Liên hệ</a></li>
 					</ul>
 					<ul class="nav navbar-nav navbar-right">
-                        <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>Liên hệ</span></a></li>
+                        <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>Đăng ký</span></a></li>
                     </ul>
 				</div>
 			</div>
@@ -281,7 +283,7 @@
                             <li><a href="mailto:#">info@yoursite.com</a></li>
                             <li><a href="#">www.yoursite.com</a></li>
                             <li style="color: black;">Trung tâm gia sư SmartEDU</li>
-                            <li style="color: black;">+61 3 8376 6284</li>
+                            <li style="color: black;">0981734759</li>
                         </ul><!-- end links -->
                     </div><!-- end clearfix -->
                 </div><!-- end col -->
