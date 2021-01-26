@@ -31,5 +31,5 @@ Xây dựng website trung tâm gia sư TBD"
   * Hướng dẫn cài đặt:
   - Download và cài đặt IDE git  tại đường dẫn sau: https://git-scm.com/download/win
   - Vào thư mục htdocs trong thư mục xampp và click chuột phải chọn Git Bash Here:
-  https://github.com/BaoLopTruong/Website-trung-tam-gia-su-TBD/issues/1#issue-793861401
+  ![cap1](https://user-images.githubusercontent.com/71202592/105789191-8ed4e100-5fb4-11eb-9f53-defba67ccd72.png)
   
