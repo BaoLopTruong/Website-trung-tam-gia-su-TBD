@@ -28,5 +28,7 @@ Xây dựng website trung tâm gia sư TBD"
   - MySQL
   - HTML/CSS/Bootstrap
 
-  
+  * Hướng dẫn cài đặt:
+  - Download IDE git tại đường dẫn sau: https://git-scm.com/download/win
+  - 
   
