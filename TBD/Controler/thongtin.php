@@ -14,7 +14,7 @@
                exit;
             }
                       
-            include('Module/info_giasu.php');
+            include('Model/info_giasu.php');
             $info_giasu = new info_giasu($hoten,$email,$sdt,$quequan);
             $query = "INSERT INTO info_giasu  VALUES('$hoten', '$email', '$sdt', '$quequan')";
             echo $query;

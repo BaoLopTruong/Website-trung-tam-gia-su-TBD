@@ -40,7 +40,7 @@
     
         //Lưu tên đăng nhập
 
-        include('Module/account.php');
+        include('Model/account.php');
         $query = mysqli_query($conn,"SELECT * FROM account WHERE username='$username'");
         $row = mysqli_fetch_array($query);
         $account = new account($row['username'],$row['password'],$row['maloai']);

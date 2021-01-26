@@ -23,7 +23,7 @@
                 exit;
             }
             //$password= md5($password);
-            include('Module/account.php');
+            include('Model/account.php');
             $account = new account($username,$repassword,$maloai);
             $query = "INSERT INTO account  VALUES('$ID', '$username', '$password', '$maloai')";
             echo $query;

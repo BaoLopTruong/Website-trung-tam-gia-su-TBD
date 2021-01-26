@@ -14,13 +14,13 @@
 		<div class="modal-content">
 			<div class="modal-header tit-up">
 				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title">Customer Login</h4>
+				<h4 class="modal-title">Đăng Nhập</h4>
 			</div>
 			<div class="modal-body customer-box">
 				<!-- Nav tabs -->
 				<ul class="nav nav-tabs">
-					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
-					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
+					<li><a class="active" href="#Login" data-toggle="tab">Đã Có Tài Khoản</a></li>
+					<li><a href="#Registration" data-toggle="tab">Chưa Có Tài Khoản</a></li>
 				</ul>
 				<!-- Tab panes -->
 				<div class="tab-content">
@@ -40,9 +40,9 @@
 							<div class="row">
 								<div class="col-sm-10">
 									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
-										Submit
+										Đăng nhập
 									</button>
-									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
+									<a class="for-pwd" href="javascript:;">Quên mật khẩu?</a>
 								</div>
 							</div>
 						</form>
@@ -66,16 +66,21 @@
 							</div>
 							<div class="form-group">
 								<div class="col-sm-12">
-									<input class="form-control" Maloai="Mã loại" placeholder="Mã loại" type="Mã loại">
+								<heading3> Bạn đăng kí tài khoản với vai trò </heading> 
+									<select>
+									<option> Gia Sư </option>
+									<option> PHHS </option>
+									 </select>
+									 
 								</div>
 							</div>
 							<div class="row">							
 								<div class="col-sm-10">
 									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
-										Save &amp; Continue
+										Đăng Ký Tài Khoản
 									</button>
 									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
-										Cancel</button>
+										Trở Lại</button>
 								</div>
 							</div>
 						</form>
