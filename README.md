@@ -32,7 +32,13 @@ Xây dựng website trung tâm gia sư TBD"
   - Download và cài đặt IDE git  tại đường dẫn sau: https://git-scm.com/download/win
   - Tại trang github chứa folder cần tải xuống, click theo thứ tự sau:
   ![cap2](https://user-images.githubusercontent.com/71202592/105790303-a44b0a80-5fb6-11eb-9a88-e735874bc25d.png)
-    - Vào thư mục htdocs trong thư mục xampp và click chuột phải chọn Git Bash Here:
+  
+  - Vào thư mục htdocs trong thư mục xampp và click chuột phải chọn Git Bash Here:
   ![cap1](https://user-images.githubusercontent.com/71202592/105789191-8ed4e100-5fb4-11eb-9f53-defba67ccd72.png)
-
+  
+  - Tại giao diện làm việc của GIT Bash Here, gõ dòng lệnh sau: "git clone " và click chuột phải và dán đường link github vào:
+  ![cap3](https://user-images.githubusercontent.com/71202592/105790778-7e723580-5fb7-11eb-8280-c539e88944e4.png)
+  
+  -
+  
   
