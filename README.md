@@ -48,10 +48,10 @@ Xây dựng website trung tâm gia sư TBD"
   ![cap5](https://user-images.githubusercontent.com/71202592/105792942-d5c5d500-5fba-11eb-8e67-4ca125344ca5.png)
   
   - Mở trình quản lý cơ sở dữ liệu MySQL theo đường dẫn sau: http://localhost/phpmyadmin/ và thực hiện các bước sau:
-   + Bước 1: click vào New để tạo một database mới.
-   + Bước 2: đặt tên cho database là quanlygiasu.
-   + Bước 3: chọn uft8_unicode_ci làm font chữ mặc định.
-   + Bước 4: click vào Create để tạo database.
+    + Bước 1: click vào New để tạo một database mới.
+    + Bước 2: đặt tên cho database là quanlygiasu.
+    + Bước 3: chọn uft8_unicode_ci làm font chữ mặc định.
+    + Bước 4: click vào Create để tạo database.
    
    ![cap6](https://user-images.githubusercontent.com/71202592/105793845-71a41080-5fbc-11eb-9d44-107eb3b8fd9d.png)
    
