@@ -47,7 +47,10 @@ Xây dựng website trung tâm gia sư TBD"
   - Sau khi download về, folder sẽ được lưu ở htdocs trong thư mục xampp:
   ![cap5](https://user-images.githubusercontent.com/71202592/105792942-d5c5d500-5fba-11eb-8e67-4ca125344ca5.png)
   
-  - Mở trình quản lý cơ sở dữ liệu MySQL theo đường dẫn sau: http://localhost/phpmyadmin/ và thực hiện các bước sau:
+  - Mở Xampp Control Panel và start 2 mục sau:
+  ![cap9](https://user-images.githubusercontent.com/71202592/105795308-3525e400-5fbf-11eb-9a2b-7eba2688e7ca.png)
+  
+  - Mở trình quản lý cơ sở dữ liệu MySQL theo đường dẫn sau: http://localhost:/phpmyadmin/ và thực hiện các bước sau:
     + Bước 1: click vào New để tạo một database mới.
     + Bước 2: đặt tên cho database là quanlygiasu.
     + Bước 3: chọn uft8_unicode_ci làm font chữ mặc định.
@@ -62,5 +65,15 @@ Xây dựng website trung tâm gia sư TBD"
     + Bước 4: click Go để import cơ sở dữ liệu.
     
    ![cap7](https://user-images.githubusercontent.com/71202592/105794654-fe030300-5fbd-11eb-8325-8da28e1f9087.png)
+   
+  - Cơ sở dữ liệu được import thành công:
+  ![cap8](https://user-images.githubusercontent.com/71202592/105794830-6651e480-5fbe-11eb-8938-36f8a23b8b21.png)
+  
+  - Mở website với đường dẫn sau: http://localhost:/Website-trung-tam-gia-su-TBD/TBD/View/index.php và trải nghiệm đi nào ^^.
+  
+  ![cap10](https://user-images.githubusercontent.com/71202592/105795555-a06fb600-5fbf-11eb-899b-3120f38e4c99.png)
+  
+  
+
   
   
