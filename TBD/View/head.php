@@ -1,4 +1,4 @@
-  <!-- Start header -->
+<!-- Start header -->
   <header class="top-navbar">
 		<nav class="navbar navbar-expand-lg navbar-light bg-light">
 			<div class="container-fluid">
@@ -12,6 +12,7 @@
 				</button>
 				<div class="collapse navbar-collapse" id="navbars-host">
 					<ul class="navbar-nav ml-auto">
+					    <li class="nav-item"> <input type="search" class="search-field mb-0" name="s" value="" id="s" placeholder="Search…" autocomplete="off"></li>
 						<li class="nav-item"><a class="nav-link" href="index.php">Trang chủ</a></li>
 						<li class="nav-item"><a class="nav-link" href="gioi_thieu.php">Giới thiệu</a>
                             <div class="dropdown-menu" aria-labelledby="dropdown-a">

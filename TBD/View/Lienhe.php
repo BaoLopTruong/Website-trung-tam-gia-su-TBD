@@ -139,7 +139,8 @@
                     <span class="icon-bar"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbars-host">
-					<ul class="navbar-nav ml-auto">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"> <input type="search" class="search-field mb-0" name="s" value="" id="s" placeholder="Search…" autocomplete="off"></li>
 						<li class="nav-item"><a class="nav-link" href="index.php">Trang chủ</a></li>
 						<li class="nav-item"><a class="nav-link" href="gioi_thieu.php">Giới thiệu</a>
 						<li class="nav-item ">

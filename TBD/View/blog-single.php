@@ -102,7 +102,8 @@
                     <span class="icon-bar"></span>
 				</button>
 				<div class="collapse navbar-collapse" id="navbars-host">
-					<ul class="navbar-nav ml-auto">
+				<ul class="navbar-nav ml-auto">
+					<li class="nav-item"> <input type="search" class="search-field mb-0" name="s" value="" id="s" placeholder="Search…" autocomplete="off"></li>
 						<li class="nav-item"><a class="nav-link" href="index.php">Trang chủ</a></li>
 						<li class="nav-item"><a class="nav-link" href="gioi_thieu.php">Giới thiệu</a>
                             <div class="dropdown-menu" aria-labelledby="dropdown-a">
@@ -148,13 +149,13 @@
 	<div class="experts"><div class="expert-preview">
 	<div class="expert-meta">
 		<div class="expert-image bordered-image">
-			<a href="https://giasuthanhcong.net/profile/quyvo911qt/"><img src="https://giasuthanhcong.net/wp-content/uploads/2016/01/chi-nhung-2160-96x96.jpg" class="avatar" width="96" alt=""></a>
+			<img src="./images/phuhuynh1.jpg" class="avatar" width="150" alt=""></a>
 		</div>
-		<div class="user-links">
-								</div>	</div>
+			
+	</div>
 	<div class="expert-text">
 		<h4 class="nomargin">
-			<a href="https://giasuthanhcong.net/profile/quyvo911qt/">
+			<a href="/">
 			Chị Nhung			</a>
 		</h4>
 		<span class="expert-signature">Phụ huynh em Tiến lớp 11</span>
@@ -162,13 +163,11 @@
 </div><div class="expert-preview">
 	<div class="expert-meta">
 		<div class="expert-image bordered-image">
-			<a href="https://giasuthanhcong.net/profile/chihoai/"><img src="https://giasuthanhcong.net/wp-content/uploads/2016/01/chi-hoai-binh-thanh-96x96.jpg" class="avatar" width="96" alt=""></a>
+			<img src="./images/phuhuynh2.jpg" class="avatar" width="150" alt=""></a>
 		</div>
-		<div class="user-links">
-								</div>	</div>
 	<div class="expert-text">
 		<h4 class="nomargin">
-			<a href="https://giasuthanhcong.net/profile/chihoai/">
+			<a href="/">
 			Chị Hoài			</a>
 		</h4>
 		<span class="expert-signature">Phụ huynh bé Khánh Vân lớp 2</span>
