@@ -127,9 +127,6 @@
 						<li class="nav-item"><a class="nav-link" href="teachers.php">Giáo viên</a></li>
 						<li class="nav-item"><a class="nav-link" href="Lienhe.php">Liên hệ</a></li>
 					</ul>
-					<ul class="nav navbar-nav navbar-right">
-                        <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>Đăng ký</span></a></li>
-                    </ul>
 				</div>
 			</div>
 		</nav>
@@ -148,31 +145,39 @@
 	</div class="expert-preview">
 	<div class="experts"><div class="expert-preview">
 	<div class="expert-meta">
-		<div class="expert-image bordered-image">
-			<img src="./images/phuhuynh1.jpg" class="avatar" width="150" alt=""></a>
-		</div>
+		
 			
 	</div>
-	<div class="expert-text">
-		<h4 class="nomargin">
-			<a href="/">
-			Chị Nhung			</a>
-		</h4>
-		<span class="expert-signature">Phụ huynh em Tiến lớp 11</span>
-		<p>Tôi thật sự bất ngờ vì có trung tâm gia sư chất lượng. Giáo viên dạy cho con chúng tôi rất tốt, nhiệt tình, tận tâm, đúng giờ và hiểu được tâm lý các cháu.Cám ơn SmartEDU rất nhiều vì đã hỗ trợ cho con chúng tôi</p>	</div>
-</div><div class="expert-preview">
-	<div class="expert-meta">
-		<div class="expert-image bordered-image">
-			<img src="./images/phuhuynh2.jpg" class="avatar" width="150" alt=""></a>
+	<div class="expert-text" style="display:flex">
+		<div class="expert-image bordered-image" style="padding-right:20px">
+			<img src="./images/phuhuynh1.jpg" class="avatar" width="150" alt=""></a>
 		</div>
-	<div class="expert-text">
-		<h4 class="nomargin">
-			<a href="/">
-			Chị Hoài			</a>
-		</h4>
-		<span class="expert-signature">Phụ huynh bé Khánh Vân lớp 2</span>
-		<p>Bé Vân nhà mình hơi hiếu động nên mình đã tìm gia sư ở các trung tâm, nhưng chỉ được một thời gian thì phải cho nghỉ vì thấy bé không tiến bộ, và cách dạy không phù hợp. Chỉ khi được làm việc với&nbsp;<strong>Gia Sư SmartEDU</strong>&nbsp;thì bé có tiến bộ rõ rệt, bé đã tự giác học, và học lực bé đã tăng từ trung bình lên giỏi sau 2 tháng. Mình cảm ơn SmartEDU, cảm ơn cô Hằng người trực tiếp giảng dạy cho bé 2 năm qua</p>	</div>
-</div></div>
+		<div>
+			<h4 class="nomargin">
+				<a href="/">
+				Chị Nhung</a>
+			</h4>
+			<span class="expert-signature">Phụ huynh em Tiến lớp 11</span>
+			<p>Tôi thật sự bất ngờ vì có trung tâm gia sư chất lượng. Giáo viên dạy cho con chúng tôi rất tốt, nhiệt tình, tận tâm, đúng giờ và hiểu được tâm lý các cháu.Cám ơn SmartEDU rất nhiều vì đã hỗ trợ cho con chúng tôi</p>
+		</div>
+	</div>
+	<div class="expert-preview">
+	</div>
+	<div class="expert-meta">
+		
+	<div class="expert-text" style="display:flex">
+		<div class="expert-image bordered-image">
+			<img src="./images/phuhuynh2.jpg" style="width: 100px;padding-right:20px; " class="avatar" width="150px" alt=""></a>
+		</div>
+		<div>
+			<h4 class="nomargin">
+				<a href="/">
+				Chị Hoài</a>
+			</h4>
+			<span class="expert-signature">Phụ huynh bé Khánh Vân lớp 2</span>
+			<p>Bé Vân nhà mình hơi hiếu động nên mình đã tìm gia sư ở các trung tâm, nhưng chỉ được một thời gian thì phải cho nghỉ vì thấy bé không tiến bộ, và cách dạy không phù hợp. Chỉ khi được làm việc với&nbsp;<strong>Gia Sư SmartEDU</strong>&nbsp;thì bé có tiến bộ rõ rệt, bé đã tự giác học, và học lực bé đã tăng từ trung bình lên giỏi sau 2 tháng. Mình cảm ơn SmartEDU, cảm ơn cô Hằng người trực tiếp giảng dạy cho bé 2 năm qua</p>
+		</div>
+	</div></div>
 
 					
 					<div class="blog-author">

@@ -6,85 +6,8 @@
 <?php 
 	include('./head.php');
 ?>
- --><body class="host_version"> 
+<body class="host_version"> 
 
-	<!-- Modal -->
-	<div class="modal fade" id="login" tabindex="-1" role="dialog" aria-labelledby="myModalLabel">
-	  <div class="modal-dialog modal-dialog-centered modal-lg" role="document">
-		<div class="modal-content">
-			<div class="modal-header tit-up">
-				<button type="button" class="close" data-dismiss="modal" aria-hidden="true">&times;</button>
-				<h4 class="modal-title">Customer Login</h4>
-			</div>
-			<div class="modal-body customer-box">
-				<!-- Nav tabs -->
-				<ul class="nav nav-tabs">
-					<li><a class="active" href="#Login" data-toggle="tab">Login</a></li>
-					<li><a href="#Registration" data-toggle="tab">Registration</a></li>
-				</ul>
-				<!-- Tab panes -->
-				<div class="tab-content">
-					<div class="tab-pane active" id="Login">
-						<form role="form" class="form-horizontal">
-							<div class="form-group">
-								<div class="col-sm-12">
-								<input class="form-control" Tên đăng nhập="Tên đăng nhập" placeholder="Tên đăng nhập" type="text">
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-12">
-									<input class="form-control" Mật khẩu="Mật khẩu" placeholder="Mật khẩu" type="Mật khẩu">
-								</div>
-							</div>
-							
-							<div class="row">
-								<div class="col-sm-10">
-									<button type="submit" class="btn btn-light btn-radius btn-brd grd1">
-										Submit
-									</button>
-									<a class="for-pwd" href="javascript:;">Forgot your password?</a>
-								</div>
-							</div>
-						</form>
-					</div>
-					<div class="tab-pane" id="Registration">
-						<form role="form" class="form-horizontal">
-							<div class="form-group">
-								<div class="col-sm-12">
-									<input class="form-control" placeholder="Tên đăng ký" type="text">
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-12">
-									<input class="form-control" Mat khau="Mật khẩu" placeholder="Mật khẩu" type="Mật khẩu">
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-12">
-									<input class="form-control" Nhập lại mật khẩu="Nhập lại mật khẩu" placeholder="Nhập lại mật khẩu" type="Nhập lại mật khẩu">
-								</div>
-							</div>
-							<div class="form-group">
-								<div class="col-sm-12">
-									<input class="form-control" Maloai="Mã loại" placeholder="Mã loại" type="Mã loại">
-								</div>
-							</div>
-							<div class="row">							
-								<div class="col-sm-10">
-									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
-										Save &amp; Continue
-									</button>
-									<button type="button" class="btn btn-light btn-radius btn-brd grd1">
-										Cancel</button>
-								</div>
-							</div>
-						</form>
-					</div>
-				</div>
-			</div>
-		</div>
-	  </div>
-	</div>
     <!-- LOADER -->
 	<div id="preloader">
 		<div class="loader-container">
@@ -163,7 +86,6 @@
 
                         <p> Chúng tôi luôn tâm niệm, truyền đạt kiến thức cho học trò là một công việc không bao giờ đơn giản, làm sao để các em tiếp thu nhanh chóng, nắm bắt vấn đề và đủ tự tin để ứng dụng vào bài tập là một hành trình vô cùng gian nan của cả người thầy lẫn học trò. </p>
 
-                        <a href="#" class="hover-btn-new orange"><span>Tìm hiểu thêm</span></a>
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
 				
@@ -187,8 +109,6 @@
 						<p>- Thiết lập giáo án phù hợp với năng lực của từng học trò.</p>
 						<p>- Luôn mở rộng, nâng cao kiến thức cho học sinh khá giỏi.</p>
                         <p> *Ngoài việc truyền đạt kiến thức, chúng tôi mong muốn sẽ cùng với quý vị phụ huynh góp phần hình thành nhân cách, giáo dục đạo đức cho các em để quý vị phụ huynh yên tâm trong công việc gia đình và xã hội.</p>
-
-                        <a href="#" class="hover-btn-new orange"><span>Tìm hiểu thêm</span></a>
                     </div><!-- end messagebox -->
                 </div><!-- end col -->
 				
@@ -257,7 +177,7 @@
                                             <p><i class="fa fa-life-ring"></i> <strong>Yêu cầu</strong> Giáo viên</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new orange"><span>Đăng ký</span></a>
+                                            <a href="./dangki.php" class="hover-btn-new orange"><span>Đăng ký</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -275,7 +195,7 @@
                                             <p><i class="fa fa-life-ring"></i> <strong>Yêu cầu</strong> Sinh viên</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new orange"><span>Đăng ký</span></a>
+                                            <a href="./dangki.php" class="hover-btn-new orange"><span>Đăng ký</span></a>
                                         </div>
                                     </div>
                                 </div>
@@ -294,7 +214,7 @@
                                             <p><i class="fa fa-life-ring"></i> <strong>Yêu cầu</strong> Giáo viên</p>
                                         </div>
                                         <div class="pricing-table-sign-up">
-                                            <a href="#" class="hover-btn-new orange"><span>Đăng ký</span></a>
+                                            <a href="./dangki.php" class="hover-btn-new orange"><span>Đăng ký</span></a>
                                         </div>
                                     </div>
                                 </div>
