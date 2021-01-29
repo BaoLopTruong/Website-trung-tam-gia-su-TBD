@@ -16,24 +16,20 @@
   <div class="row">
     <div class="col-sm-3"></div>
     <div class="col-sm-6">
-    <form action="../Controler/registerController.php" method="GET">
+    <form action="#" method="post">
 
     <div class="form-group">
-    <label for="uname"><b>Tên đăng ký </b></label>
-    <input type="text" placeholder="" name="" required>
+    <label for="uname"><b>tên </b></label>
+    <input type="text" placeholder="" name="ID" required>
+
+    <label for="uname"><b>Tài khoản</b></label>
+    <input type="text" placeholder="" name="Taikhoan" required>
 
     <label for="uname"><b>Mật khẩu</b></label>
-    <input type="text" placeholder="" name="pass" required>
-
-    <label for="uname"><b>Nhập Lai Mật khẩu</b></label>
-    <input type="text" placeholder="" name="repass" required>
-
-    <label for="uname"><b>Nhập lại mật khẩu</b></label>
     <input type="text" placeholder="" name="Matkhau" required>
 
-
     <label for="uname"><b>Mã loại</b></label>
-    <input type="text" placeholder="" name="maloai" required>
+    <input type="text" placeholder="" name="Maloai" required>
         
     <button type="submit">Login</button>
     <label>
@@ -42,8 +38,8 @@
   </div>
 
   <div class="form-group" style="background-color:#f1f1f1">
-    <button type="button" class="cancelbtn">Hủy</button>
-    <span class="psw">Quên <a href="#"> mật khẩu?</a></span>
+    <button type="button" class="cancelbtn">Cancel</button>
+    <span class="psw">Forgot <a href="#">password?</a></span>
   </div>
 
     </form>

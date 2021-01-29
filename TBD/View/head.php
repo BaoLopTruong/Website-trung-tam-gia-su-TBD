@@ -35,10 +35,6 @@
 						<li class="nav-item "><a class="nav-link" href="teachers.php">Giáo viên</a></li>
 						<li class="nav-item"><a class="nav-link" href="Lienhe.php">Liên hệ</a></li>
 					</ul>
-
-					<ul class="nav navbar-nav navbar-right">
-                        <li><a class="hover-btn-new log" href="#" data-toggle="modal" data-target="#login"><span>Đăng Nhập</span></a></li>
-                    </ul>
 				</div>
 			</div>
 		</nav>
