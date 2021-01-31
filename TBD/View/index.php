@@ -2,11 +2,7 @@
 	include('./header.php');
 ?>
 <body class="host_version"> 
-	
-<?php 
-	include('./head.php');
-?>
- --><body class="host_version"> 
+
 
 	<!-- Modal -->
     <!-- LOADER -->
